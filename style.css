@@ -1,0 +1,95 @@
+body {
+  background: #2c2b3d;
+  margin: 0;
+  font-family: "JetBrains Mono", monospace;
+}
+
+#page {
+  width: 1092px;
+  padding-top: 71px;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 500;
+  line-height: 28px;
+
+  padding-bottom: 101px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 64px;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  gap: 82px;
+}
+
+h1 {
+  color: #ffffff;
+  padding-bottom: 59px;
+  font-size: 36px;
+  margin: 0;
+}
+
+main p {
+  font-family: "Open Sans", sans-serif;
+  color: #c2c2c2;
+  margin: 0;
+}
+
+main p + p {
+  padding-top: 40px;
+}
+
+main span {
+  color: #00bfa6;
+}
+
+footer {
+  width: 568px;
+  font-size: 14px;
+  color: #ffffff;
+  text-align: center;
+  margin: auto;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #f8e9e9;
+}
+
+footer #line {
+  border: 1px #00bfa6 solid;
+  margin-bottom: 27px;
+  margin-top: 157px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#cadeado {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+}
